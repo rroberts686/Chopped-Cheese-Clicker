@@ -1,0 +1,67 @@
+
+html {
+        
+        background-image: url("../Screenshot\ 2023-07-12\ 111809.png");
+        background-size:cover;
+        
+      }
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 30px;
+ color: aliceblue; 
+ display: grid;
+  margin: 2rem auto 2rem auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  width: 1000px;
+}
+div #mainButton {
+grid-column: 2;
+
+  
+} 
+#newButton {
+opacity: 0; 
+
+}
+#myButton{
+  border-radius: 50%;
+} 
+#otherButtons{
+  display: flex;
+  height: 100px; 
+  justify-content: flex-end;
+} 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

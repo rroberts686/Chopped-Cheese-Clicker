@@ -1,0 +1,28 @@
+html {
+    /* items with '||' aren't actually used with those */
+    background-image: url(../deli.jpg);
+    background-size:cover;
+    
+  } 
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+   
+    align-items: center; 
+    
+  }
+  
+  .container {
+    text-align: center;
+    justify-content: flex-end;
+  }
+  
+  .content {
+    background-color: antiquewhite; 
+    
+    width: 400px;
+    padding: 20px;
+    
+  }
